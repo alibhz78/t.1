@@ -52,7 +52,7 @@ margin-left: .5rem;
     margin-top: 10px;
 }
 .firstname{
-    font-size: 14px;
+    font-size: 13px;
     color:rgb(83, 83, 83);
     margin-bottom: 2px;
 
@@ -85,23 +85,33 @@ margin-left: .5rem;
     font-size: 12px;
 }
 .div-normal{
-    font-size: 14px;
+    font-size: 13px;
     color: black;
 }
 .row-circle {
     align-items: center;
+    margin-bottom: 20px;
 }
  
 .circle{
     margin-right: 5px;
     width: 40px;
     height: 40px;
-    background-color: red;
+    background-color: rgb(216, 210, 210);
     border-radius: 100%;
 }
 .pedar-circle{
     align-items: center;
     margin-right: 18px;
 }
+.div-width{
+    width: 30%;
+}
+.li-1{
+    margin-bottom: 20px;
 
 }
+
+}
+
+
