@@ -58,6 +58,7 @@ margin-left: .5rem;
 
 }
 .div-main{
+    align-items: center;
     padding: 10px;
     width: 90%;
     margin: auto;
@@ -67,18 +68,26 @@ margin-left: .5rem;
 
 
 }
+.row:nth-child(even){
+
+margin-top: 15px;}
 .row{
+    width: 100%;
     justify-content: space-between;
 
 }
 .name2{
     font-size: 15px;
 }
-    
-}
-.div-date{
+
+   .div-date{
     font-size: 12px;
 }
 .span1{
     font-size: 12px;
+}
+.div-normal{
+    font-size: 14px;
+}
+ 
 }
