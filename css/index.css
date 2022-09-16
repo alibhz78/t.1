@@ -59,13 +59,16 @@ margin-left: .5rem;
 }
 .div-main{
     padding: 10px;
-    justify-content: space-between;
     width: 90%;
     margin: auto;
     margin-top: 10px;
     background-color: rgba(186, 175, 175, 0.364);
     border-radius: 15px;
 
+
+}
+.row{
+    justify-content: space-between;
 
 }
 .name2{
