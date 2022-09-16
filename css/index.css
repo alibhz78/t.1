@@ -68,12 +68,10 @@ margin-left: .5rem;
 
 
 }
-.row:nth-child(even){
-
-margin-top: 15px;}
 .row{
     width: 100%;
     justify-content: space-between;
+    margin-bottom: 20px;
 
 }
 .name2{
@@ -88,6 +86,22 @@ margin-top: 15px;}
 }
 .div-normal{
     font-size: 14px;
+    color: black;
+}
+.row-circle {
+    align-items: center;
 }
  
+.circle{
+    margin-right: 5px;
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    border-radius: 100%;
+}
+.pedar-circle{
+    align-items: center;
+    margin-right: 18px;
+}
+
 }
