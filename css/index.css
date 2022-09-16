@@ -59,7 +59,7 @@ margin-left: .5rem;
 }
 .div-main{
     align-items: center;
-    padding: 10px;
+    padding: 5px;
     width: 90%;
     margin: auto;
     margin-top: 10px;
@@ -106,7 +106,8 @@ margin-left: .5rem;
     margin-right: 18px;
 }
 .div-width{
-    width: 30%;
+    width: auto;
+    background-color: red;
 }
 .li-1{
     margin-bottom: 20px;
@@ -114,5 +115,126 @@ margin-left: .5rem;
 }
 
 }
+@media  (min-width:450px)  {
+.main{
+    padding: 10px;
+    width:100%;
+    height: 100vh;
+}
+.header{
+    width: 90%;
+    margin: auto;
+    border-radius: 15px;
+    color: white;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 170, 255);
+    
+}
+.div-logo{
+    align-items: center;
+}
+.i-logo{
+    font-size: 5rem;
+}
+.CRStrip{
+font-size: 1rem;
+margin-left: 1rem;
+}
+.div-grandnumber{
+    align-items: center;
+}
+.div-number{
+    font-size: 1rem;
+    margin-right:.5rem;
+}
+.i-phone{
+    font-size: 1.5rem;
+}
+.name-navbr{
+    width: 90%;
+    margin: auto;
+    background-color: rgba(186, 175, 175, 0.364);
+    border-radius: 15px;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.firstname{
+    font-size: .8rem;
+    color:rgb(83, 83, 83);
+    margin-bottom: 5px;
+
+}
+.div-main{
+    align-items: center;
+    padding: 20px;
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    background-color: rgba(186, 175, 175, 0.364);
+    border-radius: 15px;
 
 
+}
+.row{
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+
+}
+.row-0 {
+    margin-bottom: 3rem;
+}
+
+.name2{
+    font-size: 15px;
+}
+
+   .div-date{
+    font-size: 12px;
+}
+.span1{
+    font-size: .9rem;
+    color: rgb(100, 97, 97);
+}
+.div-normal{
+    font-size: 1rem;
+    color: black;
+}
+.row-circle {
+    align-items: center;
+    margin-bottom: 20px;
+}
+ 
+.circle{
+    margin-right: 5px;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(216, 210, 210);
+    border-radius: 100%;
+}
+.pedar-circle{
+    align-items: center;
+    margin-right: 18px;
+}
+.div-width{
+    width: 35%;
+    margin-right: 5px;
+}
+.li-1{
+    margin-bottom: 20px;
+
+}
+.div-date{
+    margin-top: .5rem;
+}
+.payed{
+    color: rgb(49, 234, 16);
+    border: 1px solid rgb(49, 234, 16);
+    margin-left: 5px;
+    padding: 5px;
+}
+}
