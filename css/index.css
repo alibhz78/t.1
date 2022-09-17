@@ -22,7 +22,7 @@ html{
     padding: 10px;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(0, 170, 255);
+    background-color: #00CCFF;
     
 }
 .div-logo{
@@ -45,16 +45,18 @@ margin-left: .5rem;
 .name-navbr{
     width: 90%;
     margin: auto;
-    background-color: rgba(186, 175, 175, 0.364);
+    background-color: #F5F6FB;
     border-radius: 15px;
     padding: 10px;
     align-items: center;
     justify-content: space-between;
     margin-top: 10px;
+    box-shadow: 0px 0px 10px 0px rgb(158, 157, 157);
+
 }
 .firstname{
     font-size: 13px;
-    color:rgb(83, 83, 83);
+    color:#CECFD4;
     margin-bottom: 2px;
 
 }
@@ -64,8 +66,9 @@ margin-left: .5rem;
     width: 90%;
     margin: auto;
     margin-top: 10px;
-    background-color: rgba(186, 175, 175, 0.364);
     border-radius: 15px;
+    background-color: #F5F6FB;
+    box-shadow: 0px 0px 10px 0px rgb(158, 157, 157);
 
 
 }
@@ -73,6 +76,7 @@ margin-left: .5rem;
     width: 100%;
     justify-content: space-between;
     margin-bottom: 20px;
+    align-items: center;
 
 }
 .row-resp{
@@ -82,10 +86,11 @@ margin-left: .5rem;
    .div-date{
     margin-bottom: 5px;
     font-size: 12px;
+    color:#5d646a;
 }
 .span1{
     font-size: 13px;
-    color: rgb(100, 97, 97);
+    color: #979ca0;
 }
 .div-normal{
     font-size: 13px;
@@ -100,7 +105,7 @@ margin-left: .5rem;
     margin-right: 5px;
     width: 40px;
     height: 40px;
-    background-color: rgb(216, 210, 210);
+    background-color: #d9d9d9;
     border-radius: 100%;
 }
 .pedar-circle{
@@ -118,8 +123,15 @@ margin-left: .5rem;
     margin-bottom: 20px;
 
 }
+.div-payed{
+    flex-direction: column;
+}
 .payed{
-    display: none;
+    color: #4cd686;
+    border: 1px solid #4cd686;
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 }
@@ -137,7 +149,7 @@ margin-left: .5rem;
     padding: 15px;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(0, 170, 255);
+    background-color: #00CCFF;
     
 }
 .div-logo{
@@ -163,16 +175,17 @@ margin-left: 1rem;
 .name-navbr{
     width: 90%;
     margin: auto;
-    background-color: rgba(186, 175, 175, 0.364);
+    background-color: #f4f5f9;
     border-radius: 15px;
     padding: 20px;
     align-items: center;
     justify-content: space-between;
     margin-top: 10px;
+    box-shadow: 0px 0px 10px 0px rgb(158, 157, 157);
 }
 .firstname{
     font-size: .8rem;
-    color:rgb(83, 83, 83);
+    color:#5d646a;
     margin-bottom: 5px;
 
 }
@@ -182,8 +195,9 @@ margin-left: 1rem;
     width: 90%;
     margin: auto;
     margin-top: 10px;
-    background-color: rgba(186, 175, 175, 0.364);
     border-radius: 15px;
+    background-color: #F5F6FB;
+    box-shadow: 0px 0px 10px 0px rgb(158, 157, 157);
 
 
 }
@@ -191,6 +205,7 @@ margin-left: 1rem;
     width: 100%;
     justify-content: space-between;
     margin-bottom: 3rem;
+    align-items: center;
 
 }
 .row-0 {
@@ -203,10 +218,11 @@ margin-left: 1rem;
 
    .div-date{
     font-size: 12px;
+    color:#5d646a;
 }
 .span1{
     font-size: .9rem;
-    color: rgb(100, 97, 97);
+    color: #979ca0;
 }
 .div-normal{
     font-size: 1rem;
@@ -221,7 +237,7 @@ margin-left: 1rem;
     margin-right: 5px;
     width: 40px;
     height: 40px;
-    background-color: rgb(216, 210, 210);
+    background-color: #d9d9d9;
     border-radius: 100%;
 }
 .pedar-circle{
@@ -235,14 +251,16 @@ margin-left: 1rem;
 .li-1{
     margin-bottom: 20px;
 
+
 }
 .div-date{
     margin-top: .5rem;
 }
 .payed{
-    color: rgb(49, 234, 16);
-    border: 1px solid rgb(49, 234, 16);
-    margin-left: 5px;
+    color: #4cd686;
+    border: 1px solid #4cd686;
+    margin-left: 10px;
     padding: 5px;
+    border-radius: 5px;
 }
 }
